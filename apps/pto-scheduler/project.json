@@ -8,12 +8,16 @@
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:application",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
         "outputPath": "dist/apps/pto-scheduler",
         "index": "apps/pto-scheduler/src/index.html",
         "browser": "apps/pto-scheduler/src/main.ts",
-        "polyfills": ["zone.js"],
+        "polyfills": [
+          "zone.js"
+        ],
         "tsConfig": "apps/pto-scheduler/tsconfig.app.json",
         "assets": [
           {
@@ -21,7 +25,10 @@
             "input": "apps/pto-scheduler/public"
           }
         ],
-        "styles": ["apps/pto-scheduler/src/styles.css"],
+        "styles": [
+          "@angular/material/prebuilt-themes/azure-blue.css",
+          "apps/pto-scheduler/src/styles.css"
+        ],
         "scripts": []
       },
       "configurations": {
@@ -71,7 +78,9 @@
     },
     "test": {
       "executor": "@nx/jest:jest",
-      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "outputs": [
+        "{workspaceRoot}/coverage/{projectRoot}"
+      ],
       "options": {
         "jestConfig": "apps/pto-scheduler/jest.config.ts"
       }
