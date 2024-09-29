@@ -36,6 +36,7 @@
     "@nx/playwright": "19.8.2",
     "@nx/web": "19.8.2",
     "@nx/workspace": "19.8.2",
+    "@openapitools/openapi-generator-cli": "^2.13.12",
     "@playwright/test": "^1.36.0",
     "@schematics/angular": "~18.2.0",
     "@swc-node/register": "~1.9.1",
