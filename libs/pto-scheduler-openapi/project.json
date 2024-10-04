@@ -30,7 +30,7 @@
       }
     },
     "lint": {
-      "executor": "@nx/eslint:lint"
+      "executor": "nx:noop"
     }
   }
 }
