@@ -30,7 +30,8 @@
       }
     },
     "lint": {
-      "executor": "nx:noop"
+      "executor": "nx:noop",
+      "cache": true
     }
   }
 }
