@@ -3,6 +3,10 @@
     "nrwl.angular-console",
     "esbenp.prettier-vscode",
     "firsttris.vscode-jest-runner",
-    "ms-playwright.playwright"
+    "ms-playwright.playwright",
+    "github.copilot",
+    "github.vscode-github-actions",
+    "christian-kohler.npm-intellisense",
+    "davidanson.vscode-markdownlint"
   ]
 }
